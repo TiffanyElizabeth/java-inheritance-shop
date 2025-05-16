@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Prodotto blueJacket = new Prodotto("blue jacket", "patagonia", 229.2, 0.24);
 
+        System.out.println(blueJacket);
+
         System.out.println(blueJacket.getBasePrice());
         System.out.println(blueJacket.getFinalPrice());
         System.out.println(blueJacket.getCode());
@@ -18,5 +20,17 @@ public class Main {
         System.out.println(blackJeans.getBrand());
         System.out.println(blackJeans.getCode());
         System.out.println(blackJeans.getCodeName());
+
+        // auto‑generated product code:
+        Prodotto p1 = new Prodotto("X200", "Acme", 49.99, 0.22);
+        System.out.println(p1);
+
+        // shop‑defined product code
+        Prodotto p2 = new Prodotto(42, "X200", "Acme", 49.99, 0.22);
+        System.out.println(p2);
+
+        // cuffie
+        Cuffie c = new Cuffie("QuietComfort 35", "Bose", 299.00, 0.22, "Black", true);
+        System.out.println(c);
     }
 }

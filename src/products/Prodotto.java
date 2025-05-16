@@ -14,7 +14,7 @@ public class Prodotto {
     private boolean isAvailable;
 
     // private method to generate random product code
-    private int generateCode() {
+    protected int generateCode() {
         Random random = new Random();
         return random.nextInt(999999);
     }
@@ -109,5 +109,11 @@ public class Prodotto {
         this.basePrice = basePrice;
         this.vat = vat;
         this.isAvailable = false;
+    }
+
+    // toString
+    public String toString() {
+        String toFormat = "Product %d - %s by %s";
+        return String.format(toFormat, getCode(), name, brand);
     }
 }
