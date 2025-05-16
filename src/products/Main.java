@@ -32,5 +32,9 @@ public class Main {
         // cuffie
         Cuffie c = new Cuffie("QuietComfort 35", "Bose", 299.00, 0.22, "Black", true);
         System.out.println(c);
+
+        // smartphone
+        Smartphone talk = new Smartphone("Phone Example", "Samsung", 400, 0.22, 365);
+        System.out.println(talk);
     }
 }
