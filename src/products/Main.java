@@ -36,5 +36,9 @@ public class Main {
         // smartphone
         Smartphone talk = new Smartphone("Phone Example", "Samsung", 400, 0.22, 365);
         System.out.println(talk);
+
+        // television
+        Televisori tv = new Televisori("tv example", "LG", 350, 0.22, 43, true);
+        System.out.println(tv);
     }
 }
