@@ -34,7 +34,7 @@ public class Main {
         System.out.println(c);
 
         // smartphone
-        Smartphone talk = new Smartphone("Phone Example", "Samsung", 400, 0.22, 365);
+        Smartphone talk = new Smartphone("Phone Example", "Samsung", 400, 0.22, "", 365);
         System.out.println(talk);
 
         // television
